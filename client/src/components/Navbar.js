@@ -2,13 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../index.css';
 
-function NavBar({ handleLogOut }) {
+function NavBar() {
     return (
         <nav className='navbar'>
-            <NavLink to='/employees'>Employees</NavLink>
-            <NavLink to='/meetings'>Meetings</NavLink>
-            <NavLink to='/managers'>Managers</NavLink>
-            <NavLink to='/login' onClick={handleLogOut}>Logout</NavLink>
+            <NavLink to='/example'>example</NavLink>
         </nav>
     )
 }
